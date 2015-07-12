@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(77,77,77) ;
+}
+#logo img {
+display: block;
+margin: auto;
+}
+
+a:active {
+    color: rgb(224,50,83);
+}
+body {
+    font-family: "arial, メイリオ";
+    background-color: white;
+    font-size: 15px;
+}
+nav {
+    text-align: center;
+}
+nav ul li {
+    margin: 20px 15px 20px 15px;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ここから追加 */
+
+nav ul li a:hover {
+    color: rgb(224,50,83);
+}
+
+/* ここまで追加 */
+
+footer {
+    border-top: 1px solid#e7e7e7;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.copyright {
+    padding: 20px 0;
+    font-size: 12px;
+    color: #666;
+}
